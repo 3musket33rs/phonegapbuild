@@ -15,8 +15,7 @@
 /**
  *
  * @author <a href='mailto:th33musk3t33rs@gmail.com'>3.musket33rs</a>
- *
- * @since 0.1
+ * * @since 0.1
  */
 
 class PhonegapBuildGrailsPlugin {
