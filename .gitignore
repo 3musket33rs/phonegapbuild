@@ -1,10 +1,24 @@
-*.iws
+
+# Grails
+*.log
+/*.zip
+/plugin.xml
+*.db
 *Db.properties
 *Db.script
-.settings
-eclipse
-stacktrace.log
 target
 /plugins
 /web-app/plugins
 /web-app/WEB-INF/classes
+
+# IntelliJ stuff
+*.iws
+/out
+
+# eclipse
+eclipse
+target-eclipse
+.settings
+
+.DS_Store
+stacktrace.log
