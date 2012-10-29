@@ -19,7 +19,7 @@
  */
 
 class PhonegapBuildGrailsPlugin {
-    def version = "0. version or versions of Grails the plugin is designed for
+    def version = "0.1"
     def grailsVersion = "2.0 > *"
     def dependsOn = [:]
     def pluginExcludes = [
