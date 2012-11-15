@@ -36,7 +36,7 @@ class AppController {
     }
 
     def push() {
-        println "ffsdfs" + params
+        //println "ffsdfs" + params
         def appId =	phonegapBuildService.push()
         def statuses = phonegapBuildService.getAppStatus(appId)
         Map statusesMap = splitAnswers(statuses.status)
