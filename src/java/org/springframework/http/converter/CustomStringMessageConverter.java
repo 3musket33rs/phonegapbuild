@@ -1,4 +1,3 @@
-
 package org.springframework.http.converter;
 
 import java.io.IOException;
@@ -73,7 +72,7 @@ public class CustomStringMessageConverter extends AbstractHttpMessageConverter<S
 		if (writeAcceptCharset) {
 			outputMessage.getHeaders().setAcceptCharset(getAcceptedCharsets());
 		}
-		System.out.println(outputMessage.getBody());
+		//System.out.println(outputMessage.getBody());
 		Charset charset = Charset.forName("UTF-8");
 		FileCopyUtils.copy(s, new OutputStreamWriter(outputMessage.getBody(), charset));
 	}
